@@ -29,7 +29,7 @@ app.get('', (req, res) => {
 
 })
 
-const uri = 'mongodb+srv://username:userpass@cluster0-fcf8r.mongodb.net/geeksProject?retryWrites=true&w=majority';
+const uri = 'mongodb+srv://user:pass@cluster0-fcf8r.mongodb.net/geeksProject?retryWrites=true&w=majority';
 
 app.listen(port, () => {
     console.log(`Server Is Running On Port ${port}`);
